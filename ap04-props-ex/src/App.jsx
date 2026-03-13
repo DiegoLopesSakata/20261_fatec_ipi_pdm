@@ -10,7 +10,7 @@ const App = () => {
     const textoOK = "Aprovar"
     const textoNOK = "Não aprovar"
     const funcaoOK = () => alert("Comentário aprovado!")
-    const funcaoNOK = () => alert("Comentário infringiu os termos de contuda!")
+    const funcaoNOK = () => alert("Comentário infringiu os termos de conduta!")
     const componenteFeedback = (
     <Feedback 
         textoOK={textoOK}
@@ -29,7 +29,7 @@ const App = () => {
         </div>
 
         <div className="row">
-            <div className="col-sm-12 col-lg-6 col-xxl-3"> 
+            <div className="col-sm-12 col-lg-6 col-xxl-6"> 
                 <Cartao cabecalho="22/04/2026">
                     <Pedido 
                         imagem = {Frieren}
@@ -39,7 +39,7 @@ const App = () => {
                     {componenteFeedback}
                 </Cartao>
             </div>   
-            <div className="col-sm-12 col-lg-6 col-xxl-3">
+            <div className="col-sm-12 col-lg-6 col-xxl-6">
                 <Cartao cabecalho="15/05/2026">
                     <Pedido
                         imagem = {Totoro}
@@ -49,7 +49,7 @@ const App = () => {
                     {componenteFeedback}
                 </Cartao>
             </div>   
-            <div className="col-sm-12 col-lg-6 col-xxl-3">
+            <div className="col-sm-12 col-lg-6 col-xxl-6">
                 <Cartao cabecalho="19/07/2026">
                     <Pedido
                         imagem = {Nezuko}
@@ -59,7 +59,7 @@ const App = () => {
                     {componenteFeedback}
                 </Cartao>
             </div>   
-            <div className="col-sm-12 col-lg-6 col-xxl-3"> 
+            <div className="col-sm-12 col-lg-6 col-xxl-6"> 
                 <Cartao cabecalho="03/12/2025">
                     <Pedido 
                         imagem = {DragonBall}
