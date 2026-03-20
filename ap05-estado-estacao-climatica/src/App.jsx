@@ -80,8 +80,7 @@ const App = () => {
                       `Coordenadas: ${latitude},${longitude}. Data: ${data}` 
                       :
                     mensagemDeErro ?
-                      `É preciso permitir o acesso à localização para ver a sua estação climática`
-                      :
+                      `É preciso permitir o acesso à localização para ver a sua estação` :
                       'Clique no botão para saber a sua estação climatica'
                   }
                 </p>
