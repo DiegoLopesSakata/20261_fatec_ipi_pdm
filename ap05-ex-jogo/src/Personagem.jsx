@@ -7,6 +7,9 @@ const Personagem = (props) => {
             <h4 className='text-center'>{props.nome}</h4>
             <p className='text-center'>{props.classe}</p>
             <h2 className='text-center'>{props.nivel}</h2>
+            <div className="d-flex justify-content-center">
+              <progress value={props.nivel} max={20}/>
+            </div>
         </div>
     </div>
   )
